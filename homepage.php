@@ -1,5 +1,5 @@
 <?php
-//session_start();
+session_start();
 $accesslevel = $_SESSION['access_level_session'];
 displayAccessLevelInformation($accesslevel);
 
