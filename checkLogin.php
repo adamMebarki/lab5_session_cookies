@@ -5,5 +5,10 @@
     if ($username == "username" && $password == "password"){
         setcookie('access_level_cookie','standarduser');
     }
+    elseif($username == "root" && $password == "root")
+    {
+        setcookie('access_level_cookie','root');
+
+    }
 header('Location: homepage.php');
 ?>
