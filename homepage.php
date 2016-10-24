@@ -3,8 +3,8 @@
 session_start();
 $accesslevel = $_SESSION['access_level_session'];
 displayAccessLevelInformation($accesslevel);
-$_SESSION = array();
-session_destroy();
+//$_SESSION = array();
+//session_destroy();
 function displayAccessLevelInformation($accesslevel)
 {
     if($accesslevel == "standarduser")
