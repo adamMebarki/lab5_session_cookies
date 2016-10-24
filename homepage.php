@@ -15,6 +15,7 @@ function displayAccessLevelInformation($accesslevel)
     {
         echo "<p style = \"background-color: red\">You are currently logged in as a root user</p>";
         echo "<p style = \"background-color: red\">You now have access to additional administrative features</p>";
+
     }
 }
 
