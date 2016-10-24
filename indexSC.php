@@ -6,7 +6,7 @@
     </head>
     <body>
         <p>
-            <br>LAB TWO THREE AND FOUR<br>
+            <br>LAB Session qnd Cookies<br>
             <?php
                 print "Bouyachaka";
             ?>
