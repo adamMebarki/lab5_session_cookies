@@ -7,7 +7,7 @@
         //setcookie('access_level_cookie','standarduser');
         $_SESSION['access_level_session'] = "standarduser";
     }
-    elseif($username == "root" && $password == "root")
+    elseif($_SESSION['username'] == "root" && $_SESSION['password']== "root")
     {
         //setcookie('access_level_cookie','root');
         $_SESSION['access_level_session'] = "root";
