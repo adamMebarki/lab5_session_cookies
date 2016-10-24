@@ -2,6 +2,7 @@
 //session_start();
 $accesslevel = $_SESSION['access_level_session'];
 displayAccessLevelInformation($accesslevel);
+
 //$_SESSION = array();
 //session_destroy();
 function displayAccessLevelInformation($accesslevel)
@@ -16,6 +17,8 @@ function displayAccessLevelInformation($accesslevel)
         echo "<p style = \"background-color: red\">You now have access to additional administrative features</p>";
 
     }
+
+
 }
 
 ?>

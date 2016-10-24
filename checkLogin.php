@@ -1,14 +1,14 @@
 <?php
     //$username = $_POST["name"];
     //$password = $_POST["password"];
-    $_SESSION['username'] = $_POST["name"];
-    $_SESSION['password'] = $_POST["password"];
-    if ($_SESSION['username'] == "username" && $_SESSION['password'] == "password"){
+    $username = $_POST["name"];
+    $password = $_POST["password"];
+    if ($username == "username" && $password == "password"){
         //setcookie('access_level_cookie','standarduser');
         session_start();
         $_SESSION['access_level_session'] = "standarduser";
     }
-    elseif($_SESSION['username'] == "root" && $_SESSION['password']== "root")
+    elseif($username == "root" && $password == "root")
     {
         session_start();
         //setcookie('access_level_cookie','root');
