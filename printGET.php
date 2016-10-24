@@ -17,7 +17,7 @@ for ( $i=0 ; $i<$nb_param ; $i++)  {
     $paramname = $param[0];
     $paramvalue = $param[1];
     $$paramname = $paramvalue;
-
+ 
     echo $paramname;
     echo $paramvalue;
     echo $$paramname;
