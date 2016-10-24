@@ -1,6 +1,7 @@
 <?php
 session_start();
 $accesslevel = $_SESSION['access_level_session'];
+//$accesslevel = $_COOKIE['access_level_cookie'];
 displayAccessLevelInformation($accesslevel);
 
 //$_SESSION = array();

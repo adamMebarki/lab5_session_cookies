@@ -6,7 +6,7 @@
     </head>
     <body>
         <p>
-            <br>LAB Session qnd Cookies<br>
+            <br><h1>LAB Session qnd Cookies</h1><br>
             <?php
                 print "Bouyachaka";
             ?>
@@ -20,5 +20,12 @@
                 <br><br>
                 <input type="submit" name="Submit">
         </form>
+
+        <h1>
+            Self referencing forms
+        </h1>
+    
+    
+
     </body>
 </html>
