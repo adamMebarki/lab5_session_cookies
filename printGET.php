@@ -6,6 +6,7 @@
  * Time: 15:57
  */
 
-    $test = $_GET["query"];
-    echo $test
+foreach ($_GET as $key => $value) {
+    echo $key . ' => ' . $value . '<br />';
+}
 ?>
