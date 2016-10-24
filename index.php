@@ -11,5 +11,14 @@
                 print "Bouyachaka";
             ?>
         </p>
+            <form action="checklogin.php" method="post">
+                Name:<br>
+                <input type="text" name="name">
+                <br>
+                Password:<br>
+                <input type="text" name="password">
+                <br><br>
+                <input type="submit" name="Submit">
+        </form>
     </body>
 </html>
